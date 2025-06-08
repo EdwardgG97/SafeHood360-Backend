@@ -19,7 +19,16 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @Column(nullable = false)
     private String email;
+
+    private String firstName;
+    private String lastName;
+    private String gender;
+    private String address;
+    private String phone;
+    private String birthDate;
+    private String profileImage;
 
     @Enumerated(EnumType.STRING)
     private Role role = Role.USER;
