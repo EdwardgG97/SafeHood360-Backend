@@ -29,6 +29,11 @@ public class User {
     private String phone;
     private String birthDate;
     private String profileImage;
+    
+    // Campos para barrios
+    private String barrio1;
+    private String barrio2;
+    private String barrio3;
 
     @Enumerated(EnumType.STRING)
     private Role role = Role.USER;
